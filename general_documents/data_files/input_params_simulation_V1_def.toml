@@ -1,0 +1,108 @@
+[Sky]
+Temperature = 8
+n = 1000
+
+[4KCL]
+Temperature = 8
+RL = -40
+
+[Window]
+Temperature = 300
+RL = -20
+IL = -0.01
+
+[IRfilter]
+Temperature = 50
+RL = -40
+IL = -0.01
+
+[FeedHornSky]
+Temperature = 5
+RL = -30
+IL = -0.05
+
+[OMTsky]
+Temperature = 5
+RL = -25
+IL = -0.1
+
+[FeedHornload]
+Temperature = 5
+RL = -30
+IL = -0.05
+
+[OMTload]
+Temperature = 5
+RL = -25
+IL = -0.1
+
+[HybridX]
+Temperature = 5
+RL = -25
+IL = -0.1
+
+[HybridY]
+Temperature = 5
+RL = -25
+IL = -0.1
+
+[LNA1]
+Tnoise = 3.8
+RL = -15
+Gain = 28
+
+[LNA2]
+Tnoise = 3.8
+RL = -15
+Gain = 28
+
+[LNA3]
+Tnoise = 3.8
+RL = -15
+Gain = 28
+
+[LNA4]
+Tnoise = 3.8
+RL = -15
+Gain = 28
+
+[SPO]
+Window = -20
+IRfilter = -20
+4KCL = -48.5
+
+[Environment]
+Tenv1 = 50.1
+Tenv2 = 5.1
+Troom = 300
+T_ext_cry = 300
+T_BEM_filter = 300
+T_after_filt_BEM = 300
+T_after_ampl_DC = 300
+T_FPGA = 300
+Tcryo1 = 50
+Tcryo2 = 5
+
+[BEM_amp]
+RL = -15
+Fnoise = 4
+Gain = 28
+
+[BEM_filter]
+RL = -25
+IL = -2
+
+[DC_amp]
+RL = -15
+Fnoise = 3
+Gain = 17
+
+[DC_filter]
+RL = -25
+IL = -2
+
+[Mixer]
+Fnoise = 6.9
+Lmixer = -6.9
+LO = 0
+T_mixer = 300
